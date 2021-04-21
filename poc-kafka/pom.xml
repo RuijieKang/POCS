@@ -26,6 +26,7 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- Kafka Client Versions Compatibility https://spring.io/projects/spring-kafka -->
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
