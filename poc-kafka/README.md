@@ -6,3 +6,8 @@ Bring up and down the kafka environment
 Manage the kafka cluster
 
 - Kafka Manager console http://localhost:9000/
+
+References
+- https://www.vinsguru.com/category/kafka/
+- https://docs.confluent.io/platform/current/quickstart/cos-docker-quickstart.html
+- https://spring.io/projects/spring-kafka
