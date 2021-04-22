@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>poc-kafka-stream-producer</module>
+        <module>poc-kafka-stream-processor</module>
+        <module>poc-kafka-stream-consumer</module>
+    </modules>
+    <groupId>ca.donegall</groupId>
+    <artifactId>stream-services</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>stream-services</name>
+    <description>Microservices using cloud stream and kafka stream</description>
+</project>

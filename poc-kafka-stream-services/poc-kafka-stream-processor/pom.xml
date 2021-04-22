@@ -31,7 +31,6 @@
 		<!-- TODO : figure out spring-kafka vs spring-kafka-binders -->		
 		<!-- TODO : figure out kafka-stream vs kafka-clients -->
 		<!-- TODO : figure out spring-cloud-stream-binder-kafka-streams vs spring-cloud-stream-binder-kafka -->
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-stream</artifactId>
@@ -40,6 +39,15 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-stream-binder-kafka-streams</artifactId>
         </dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-stream-binder-kafka</artifactId><!-- default -->
+		</dependency>
+		<dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-streams</artifactId>
+        </dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
