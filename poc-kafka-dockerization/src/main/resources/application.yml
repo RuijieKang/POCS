@@ -16,4 +16,5 @@ spring:
             value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
 consumer:
-    processing.time: 0
+    processing:
+        time: 5

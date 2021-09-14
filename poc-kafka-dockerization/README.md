@@ -9,7 +9,7 @@ Bring up and down the producers and consumers in cluster/demo
 - cd cluster/demo
 - docker-compose up -d
 - docker-compose down
-- docker-compose up --scale consumer=2
+- docker-compose up -d --scale consumer=2
 
 Manage the kafka cluster
 
