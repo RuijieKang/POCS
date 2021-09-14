@@ -10,6 +10,7 @@ import reactor.core.publisher.Flux;
 
 @Configuration
 public class ProducerConfiguration {
+	
     @Bean
 	public Supplier<Flux<Long>> producer(){
 		return () -> Flux.interval(Duration.ofSeconds(1))

@@ -9,7 +9,11 @@ Manage the kafka cluster
 
 Create topics used by the application
 - random-number
-  
+
+Terms:
+    Topics : logical table
+    Partition: A segment of data in topics
+    Boker: physical node
 References
 - https://www.vinsguru.com/category/kafka/
 - https://docs.confluent.io/platform/current/quickstart/cos-docker-quickstart.html

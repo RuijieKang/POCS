@@ -10,13 +10,20 @@
 	<groupId>ca.donegall</groupId>
 	<artifactId>poc-kafka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>poc-kafka</name>
+	<name>poc-kafka-stream</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2020.0.2</spring-cloud.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>io.projectreactor</groupId>
+			<artifactId>reactor-test</artifactId>
+			<version>3.4.9</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
