@@ -16,5 +16,11 @@ public class RandomNumberConsumer {
     public void consume(String message) throws UnknownHostException{
         String hostName = InetAddress.getLocalHost().getHostName();
         logger.info("Host {} consuming number {}", hostName, message);
-    }    
+    } 
+    
+    @KafkaListener(topics = "random-number2")
+    public void consumeSecondTopic(String message) throws UnknownHostException{
+        String hostName = InetAddress.getLocalHost().getHostName();
+        logger.info("Host {} consuming number {} from topic radom-number2", hostName, message);
+    }  
 }

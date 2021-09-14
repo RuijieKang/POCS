@@ -24,6 +24,7 @@ public class RandomNumberProducer {
     public void produce() throws UnknownHostException{
         String randomString = String.valueOf(ThreadLocalRandom.current().nextInt(1000,9999));
         this.kafkaTemplate.sendDefault(randomString);
+        this.kafkaTemplate.send("random-number2", randomString);
 
         String hostName = InetAddress.getLocalHost().getHostName();
         logger.info("Host {} producing number {}", hostName, randomString);
